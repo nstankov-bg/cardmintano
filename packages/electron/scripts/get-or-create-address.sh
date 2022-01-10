@@ -25,7 +25,7 @@ if [ ! -d "$APP_DATA_DIR/data" ]; then
 
   cardano-cli query protocol-parameters \
     --testnet-magic $TESTNET_ID \
-    --mary-era \
+  
     --out-file "$APP_DATA_DIR/data/protocol.json"
 
   mkdir "$APP_DATA_DIR/data/policy"

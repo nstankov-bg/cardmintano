@@ -1,7 +1,6 @@
 alias cardano-cli="/Applications/Daedalus\ Testnet.app/Contents/MacOS/cardano-cli"
 
 cardano-cli transaction build-raw \
-  --mary-era \
   --fee 0 \
   --tx-in $TX_HASH#$TX_IX \
   --tx-out="$TX_OUT_STRING" \
